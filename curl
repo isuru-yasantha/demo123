@@ -1,0 +1,2 @@
+watch curl -v -X GET https://testapimint.medline.com/api/health-check/v1.0/health -s -o /dev/null -w "%{time_starttransfer}\n"
+testapimint.medline.com
